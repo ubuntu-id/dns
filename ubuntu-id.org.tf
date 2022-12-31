@@ -18,7 +18,7 @@ resource "cloudflare_record" "terraform_managed_resource_a0348156d1ab647fd935e5f
 
 resource "cloudflare_record" "terraform_managed_resource_08bf1abcac003596955075725f34886c" {
   name    = "ubuntu-id.org"
-  proxied = true
+  proxied = false
   ttl     = 1
   type    = "A"
   value   = "185.199.111.153"
@@ -27,7 +27,7 @@ resource "cloudflare_record" "terraform_managed_resource_08bf1abcac0035969550757
 
 resource "cloudflare_record" "terraform_managed_resource_3f43d1f1143cc26d3d3d93b61ddb37b9" {
   name    = "ubuntu-id.org"
-  proxied = true
+  proxied = false
   ttl     = 1
   type    = "A"
   value   = "185.199.110.153"
@@ -36,7 +36,7 @@ resource "cloudflare_record" "terraform_managed_resource_3f43d1f1143cc26d3d3d93b
 
 resource "cloudflare_record" "terraform_managed_resource_af56194e1c4b963b544c1d67b7c7dea9" {
   name    = "ubuntu-id.org"
-  proxied = true
+  proxied = false
   ttl     = 1
   type    = "A"
   value   = "185.199.109.153"
@@ -45,7 +45,7 @@ resource "cloudflare_record" "terraform_managed_resource_af56194e1c4b963b544c1d6
 
 resource "cloudflare_record" "terraform_managed_resource_464fca4f11a4fe2877fca4c96ef40aa2" {
   name    = "ubuntu-id.org"
-  proxied = true
+  proxied = false
   ttl     = 1
   type    = "A"
   value   = "185.199.108.153"
@@ -72,7 +72,7 @@ resource "cloudflare_record" "terraform_managed_resource_da00c2b5e51ffecd3b7c0e3
 
 resource "cloudflare_record" "terraform_managed_resource_0c2aab4ec0f05485124131b393b9d9a9" {
   name    = "www"
-  proxied = true
+  proxied = false
   ttl     = 1
   type    = "CNAME"
   value   = "ubuntu-id.github.io"
